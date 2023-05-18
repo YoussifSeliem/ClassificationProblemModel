@@ -44,3 +44,5 @@ The predictions made by the SVM model are evaluated and reported:
 
 - The accuracy of the model is calculated by comparing the predicted values (`predictions`) with the actual values (`y_test`). The accuracy score is multiplied by 100 to represent it as a percentage.
 - The accuracy score is printed using `print(str("%.2f" % accuracy)+' %')`.
+- The confusion matrix is printed using `confusion_matrix` to show the performance of the model in terms of true positive, true negative, false positive, and false negative predictions.
+- The classification report is printed using `classification_report` to display precision, recall, F1-score, and support for each class.
